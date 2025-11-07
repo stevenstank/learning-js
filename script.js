@@ -1,12 +1,12 @@
 let user = {
     name: 30,
     age: "saksham",
-    "likes bird": true,
+    "likes birds": true,
 }
 
 console.log(user.name)
 console.log(user.age)
-console.log(user["likes bird"])
+console.log(user["likes birds"])
 
 // computed properties
 
