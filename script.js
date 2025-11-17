@@ -1,6 +1,6 @@
 let user = {
     name: 30,
-    age: "saksham",
+    age: "aryan",
     "likes birds": true,
 }
 
