@@ -17,3 +17,11 @@ let bag = {
 };
 
 alert( bag.apple )
+
+
+let data = 42;
+let dataCopy = data;
+
+dataCopy = 43;
+console.log(data);
+console.log(dataCopy);
