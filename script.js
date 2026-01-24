@@ -1,27 +1,12 @@
-let user = {
-    name: 18,
-    age: "aryan",
-    "likes bird": true,
+function book(title, author, year){
+    this.title = title;
+    this.author = author;
+    this.year = year;
+    this.getSummary = function(){console.log(`${this.title} was written by ${this.author} in ${this.year}`);}
 }
 
-console.log(user.name)
-console.log(user.age)
-console.log(user["likes bird"])
+const book1 = new book('The Great Adventure', 'Saksham', 2026);
+const book2 = new book('Mystery of the Night', 'Ananya', 2025);
 
-// computed properties
-
-let fruit = prompt("Which fruit to buy?", "apple");
-
-let bag = {
-  [fruit]: 5,
-};
-
-alert( bag.apple )
-
-
-let data = 42;
-let dataCopy = data;
-
-dataCopy = 43;
-console.log(data);
-console.log(dataCopy);
+book1.getSummary();
+book2.getSummary();
