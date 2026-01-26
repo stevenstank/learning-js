@@ -1,8 +1,8 @@
-function book(title, author, year){
+function book(title, authorr, year){
     this.title = title;
-    this.author = author;
+    this.authorr = authorr;
     this.year = year;
-    this.getSummary = function(){console.log(`${this.title} was written by ${this.author} in ${this.year}`);}
+    this.getSummary = function(){console.log(`${this.title} was written by ${this.authorr} in ${this.year}`);}
 }
 
 const book1 = new book('The Great Adventure', 'Saksham', 2026);
