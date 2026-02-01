@@ -10,3 +10,6 @@ const book2 = new book('Mystery of the Night', 'Ananya', 2025);
 
 book1.getSummary();
 book2.getSummary();
+
+console.log(book1);
+console.log(book2);
