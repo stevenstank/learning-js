@@ -1,15 +1,13 @@
-function book(title, author, year){
-    this.title = title;
-    this.author = author;
-    this.year = year;
-    this.getSummary = function(){console.log(`${this.title} was written by ${this.author} in ${this.year}`);}
+function Player(name, marker) {
+  this.name = name;
+  this.marker = marker;
+  this.sayName = function() {
+    console.log(this.name)
+  };
 }
 
-const book1 = new book('The Great Adventure', 'Saksham', 2026);
-const book2 = new book('Mystery of the Night', 'Ananya', 2025);
-
-book1.getSummary();
-book2.getSummary();
-
-console.log(book1);
-console.log(book2);
+const player1 = new Player('steve', 'X');
+const player2 = new Player('also steve', 'O');
+player1.sayName(); // logs 'steve'
+player2.sayName(); // logs 'also steve'
+Object.getPrototypeOf(player1) === Player.prototype; 
