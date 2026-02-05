@@ -1,13 +1,9 @@
-function Player(name, marker) {
-  this.name = name;
-  this.marker = marker;
-  this.sayName = function() {
-    console.log(this.name)
-  };
-}
+let obj = {
+  get propName() {
+    // getter, the code executed on getting obj.propName
+  },
 
-const player1 = new Player('steve', 'X');
-const player2 = new Player('also steve', 'O');
-player1.sayName(); // logs 'steve'
-player2.sayName(); // logs 'also steve'
-Object.getPrototypeOf(player1) === Player.prototype; 
+  set propName(value) {
+    // setter, the code executed on setting obj.propName = value
+  }
+};
