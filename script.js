@@ -6,4 +6,4 @@ let obj = {
   set propName(value) {
     // setter, the code executed on setting obj.propName = value
   }
-};
+}
