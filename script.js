@@ -6,4 +6,4 @@ let obj = {
   set propName(value) {
     
   }
-};
+}
