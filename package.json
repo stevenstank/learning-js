@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/stevenstank/learning-js/issues"
   },
-  "homepage": "https://github.com/stevenstank/learning-js#readme"
+  "homepage": "https://github.com/stevenstank/learning-js#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
 }
